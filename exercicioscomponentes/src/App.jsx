@@ -1,6 +1,6 @@
 import Exemplo1 from "./componentes/exemplo1"
 import Exercicio1 from "./componentes/exercicio1"
-
+import Exercicio2 from "./componentes/exercicio2"
 export default function App() {
 
   return (
@@ -11,9 +11,11 @@ export default function App() {
       <Exemplo1 numero1={50} numero2={45.98} />
 
       <Exercicio1 fah={100} />
-    </div>
 
+      <hr />
+      <h3> Chamada para o Exercio2</h3>
+      <Exercicio2 peso="80" altura="1.80" />
+      <Exercicio2 peso="60" altura="1.60" />
+    </div>
   )
 }
-
-
