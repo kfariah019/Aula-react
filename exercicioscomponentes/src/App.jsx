@@ -1,6 +1,7 @@
 import Exemplo1 from "./componentes/exemplo1"
 import Exercicio1 from "./componentes/exercicio1"
 import Exercicio2 from "./componentes/exercicio2"
+import Exercicio6 from "./componentes/exercicio6"
 export default function App() {
 
   return (
@@ -16,6 +17,15 @@ export default function App() {
       <h3> Chamada para o Exercio2</h3>
       <Exercicio2 peso="80" altura="1.80" />
       <Exercicio2 peso="60" altura="1.60" />
+      
+      <hr/>
+<h1>exercicio 6
+</h1>
+<Exercicio6 quantidade={2} preco={5}/>
+
+
+
+
     </div>
   )
 }
