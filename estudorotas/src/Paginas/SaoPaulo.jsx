@@ -6,7 +6,7 @@ export default function SaoPaulo() {
             O estado de São Paulo é o mais rico e populoso do Brasil, destacando-se como centro econômico, cultural e industrial. Sua capital, também chamada São Paulo, é a maior cidade do país e uma das maiores do mundo. O estado é conhecido pela diversidade cultural, infraestrutura avançada e forte agricultura.
             </p>
             <p>
-                <img src=""/>
+                <img src="/SP.png"/>
 
             </p>                    
             <p>
