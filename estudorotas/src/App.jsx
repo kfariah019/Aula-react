@@ -17,6 +17,8 @@ import Riograndedonorte from "./Paginas/riograndedonorte";
 import Piaui from "./Paginas/piaui";
 import Paraiba from "./Paginas/paraiba";
 import Rondonia from "./Paginas/rondonia";
+import "./App.css";
+import Exemplo1 from "./Paginas/exemplo1";
 export default function App() {
     return (
         <BrowserRouter>
@@ -40,6 +42,8 @@ export default function App() {
                 <Route path="/sg" element={<Sergipe />} />
                 <Route path="/pb" element={<Paraiba />} />
                 <Route path="/rd" element={<Rondonia />} />
+                <Route path="/exemplo1" element={<Exemplo1 />} />
+                
 
             </Routes>
 
