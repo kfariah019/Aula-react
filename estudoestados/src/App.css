@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(22, 53, 82);
+    background-color: rgb(10, 66, 61);
+    text-align: center;
   
 }
 
@@ -10,11 +11,11 @@ H1
 padding: 20px;
 margin: 0;
 
-background-color: rgb(3, 30, 53);
+background-color: rgb(11, 58, 65);
 }
 a
 {
-color:rgb(154, 208, 255)
+color:rgb(22, 107, 89)
 
 
 }
@@ -23,9 +24,9 @@ img{
 }
 .conteudo
 {
-    background-color: rgb(163, 213, 253);
+    background-color: rgb(0, 143, 162);
     width: 700px;
-    margin: 20px;
+    margin: 20px AUTO;
     padding: 20px;
     font-size: 20px;
     text-align: justify;

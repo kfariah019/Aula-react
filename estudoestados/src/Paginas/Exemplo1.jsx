@@ -19,10 +19,12 @@ export default function Exemplo1() {
     </p>
     
     <p>
-    <input type="burron" value="Calcular" />
+    <input type="button" value="Calcular" />
     
     </p>
-    
+    <p>
+                 <a href="/">Voltar para Home</a>
+             </p>
     </form>
     </div>
   
