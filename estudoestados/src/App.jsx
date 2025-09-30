@@ -8,6 +8,11 @@ import Exercicio2 from "./Paginas/exercicio2";
 import Exercicio3 from "./Paginas/exercicio3";
 import Exercicio4 from "./Paginas/exercicio4";
 import Exercicio5 from "./Paginas/exercicio5";
+import Exercicio6 from "./Paginas/exercicio6";
+import Exercicio7 from "./Paginas/exercicio7";
+import Exercicio8 from "./Paginas/exercicio8";
+import Exercicio9 from "./Paginas/exercicio9";
+import Exercicio10 from "./Paginas/exercicio10";
 
 
 export default function App() {
@@ -22,6 +27,12 @@ export default function App() {
                 <Route path="/exercicio3" element={<Exercicio3/>} />
                 <Route path="/exercicio4" element={<Exercicio4/>} />
                 <Route path="/exercicio5" element={<Exercicio5/>} />
+               
+                <Route path="/exercicio6" element={<Exercicio6 />} />
+                <Route path="/exercicio7" element={<Exercicio7/>} />
+                <Route path="/exercicio8" element={<Exercicio8/>} />
+                <Route path="/exercicio9" element={<Exercicio9/>} />
+                <Route path="/exercicio10" element={<Exercicio10/>} />
             </Routes>
         </BrowserRouter>
     );

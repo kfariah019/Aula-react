@@ -1,18 +1,29 @@
-export default function Exercicio5()
+export default function Exercicio8()
 {
     return (
         <div>
-            <h1> Exercicio 5</h1>
+            <h1> Exercicio 8</h1>
             <div className="conteudo">
                 <h3> Calculo do quadrado/cubo</h3>
 
                 <form>
+          
                     <p>
-                        digite o valor do lado <br />
+                        digite o peso <br />
                       <input type="text"/>
                     </p>
+
+
                     <p>
-                    <input type="button" value="Exercicio5" />
+                        digite a altura <br />
+                      <input type="text"/>
+                    </p>
+
+
+
+
+                    <p>
+                    <input type="button" value="Exercicio8" />
 
                     </p>
 
